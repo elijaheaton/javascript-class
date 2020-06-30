@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+h4 {
+  background-color: maroon;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid black;
+}
+p {
+  color: white;
+  height: 120px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.container {
+  width: 90%;
+  background-color: lightgray;
+  position: relative;
+}
+
+
+.row {
+  width: 100%;
+}
+.col {
+  height: 150px;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .col {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col {
+    width: 50%;
+  }
+  .col-special {
+    width: 100%;
+  }
+  .col-special > .container {
+    width: 95%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col {
+    width: 33%;
+  }
+}
