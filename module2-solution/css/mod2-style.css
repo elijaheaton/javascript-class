@@ -1,8 +1,11 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
 h1 {
   text-align: center;
 }
 h4 {
-  background-color: maroon;
   position: absolute;
   top: 0;
   right: 0;
@@ -10,15 +13,24 @@ h4 {
   padding: 10px;
   border: 1px solid black;
 }
+.one {
+  background-color: #F75990;
+}
+.two {
+  background-color: #FFF685;
+}
+.three {
+  background-color: #00DDFF;
+}
 p {
-  color: white;
-  height: 120px;
   border: 1px solid black;
   padding: 5px;
+  padding-top: 45px;
 }
 
 .container {
   width: 90%;
+  margin: auto;
   background-color: lightgray;
   position: relative;
 }
@@ -28,7 +40,6 @@ p {
   width: 100%;
 }
 .col {
-  height: 150px;
   float: left;
 }
 
