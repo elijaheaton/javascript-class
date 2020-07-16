@@ -5,3 +5,5 @@ Module 2 solution can be found at https://elijaheaton.github.io/javascript-class
 Module 3 solution can be found at https://elijaheaton.github.io/javascript-class/module3-solution/index.html
 
 Module 4 solution can be found at https://elijaheaton.github.io/javascript-class/module4-solution/index.html
+
+Module 5 solution can be found at https://elijaheaton.github.io/javascript-class/module5-solution/index.html
